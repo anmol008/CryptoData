@@ -1,0 +1,47 @@
+.data {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+}
+table {
+  border: 1px solid rgba(34,36,38,.15) !important;
+  border-radius: 0.3rem;
+  width: 90%;
+  margin-top: -100px;
+  background-color: aliceblue;
+  }
+  table tr th{
+    font-size: 0.9rem;
+    height: 60px;
+    background: rgb(250, 250, 250) !important;
+    border-left: none !important;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+  table tr:hover{
+    background-color:rgba(169, 156, 156, 0.25);
+  }
+  table tr td{
+    height: 100px;
+    border-top: 1px solid rgba(34,36,38,.1) !important;
+  }
+  td img{
+    width: 40px;
+    height: 40px;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .symbol{
+    font-size: 15px !important;
+    font-weight: 100;
+  }
+  td {
+    text-align: center;
+  }
+  .footer{
+    position: absolute;
+  }
